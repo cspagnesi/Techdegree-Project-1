@@ -1,1 +1,1 @@
-#Techdegree Project 1
+#Techdegree Project 1: Random Number Guessing Game
