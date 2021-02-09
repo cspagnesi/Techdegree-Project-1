@@ -9,6 +9,8 @@ def guess_random_num():
     while random_number_guess != random_number:
         if random_number_guess > random_number:
             print("The randomly generated number is lower.")
+            if random_number_guess > 10 or random_number_guess < 1:
+                print("That number is outside of the indicated range.")
         elif random_number_guess < random_number:
             print("The randomly generated number is higher.")
             if random_number_guess > 10 or random_number_guess < 1:
